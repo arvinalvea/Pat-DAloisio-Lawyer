@@ -1,3 +1,4 @@
+/* VARIABLES ------------------------------------------------- */
 /* BASE ------------------------------------------------- */
 * {
   margin: 0;
@@ -19,47 +20,47 @@ nav {
   align-items: center;
   position: fixed;
   width: 100%;
-  z-index: 10000;
   min-height: 8vh;
   background-color: #fff;
+  box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
   height: 10vh;
   transition: background-color 250ms ease-in;
 }
-nav img {
-  margin-top: 3em;
-  margin-bottom: 3em;
-  height: 80px;
+nav h1 {
+  margin-left: 0.5em;
+  text-transform: uppercase;
+  font-size: 1.3rem;
 }
 
 .nav-links {
-  text-transform: uppercase;
   display: flex;
   justify-content: space-around;
   position: absolute;
   left: 0px;
-  height: 92vh;
   top: 10vh;
   background-color: #fff;
+  z-index: -1;
   display: flex;
   flex-direction: column;
   align-items: center;
   width: 100%;
-  transform: translateX(-100%);
+  transform: translateY(-100%);
   transition: transform 0.5s ease-in;
 }
 .nav-links a {
-  color: black;
+  color: #27496c;
   text-decoration: none;
   position: inherit;
-  letter-spacing: 4px;
 }
 .nav-links li {
   list-style-type: none;
-  font-size: 1rem;
+  font-size: 0.9rem;
   opacity: 0;
-  margin-top: 40px;
-  margin-bottom: 10px;
+  margin-bottom: 2.5em;
   width: 80%;
+}
+.nav-links li:first-child {
+  margin-top: 1.5em;
 }
 
 .nav-scrolled {
@@ -70,12 +71,13 @@ nav img {
 .burger {
   display: block;
   cursor: pointer;
-  margin-left: 1em;
+  margin-left: auto;
+  margin-right: 1em;
 }
 .burger div {
   width: 25px;
-  height: 3px;
-  background-color: black;
+  height: 2px;
+  background-color: grey;
   margin: 5px;
   transition: all 0.3s ease;
 }
