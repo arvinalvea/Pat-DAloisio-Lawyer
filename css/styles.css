@@ -21,7 +21,7 @@ nav {
   width: 100%;
   z-index: 10000;
   min-height: 8vh;
-  background-color: transparent;
+  background-color: #fff;
   height: 10vh;
   transition: background-color 250ms ease-in;
 }
@@ -56,7 +56,7 @@ nav img {
 .nav-links li {
   list-style-type: none;
   font-size: 1rem;
-  opacity: 1;
+  opacity: 0;
   margin-top: 40px;
   margin-bottom: 10px;
   width: 80%;
@@ -82,6 +82,29 @@ nav img {
 
 .nav-active {
   transform: translateX(0);
+}
+
+/* KEYFRAMES ------------------------------------------------- */
+@keyframes navLinkFade {
+  from {
+    opacity: 0;
+    transform: translateX(50px);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+.toggle .burger-line-1 {
+  transform: rotate(-45deg) translate(-5px, 6px);
+}
+
+.toggle .burger-line-2 {
+  opacity: 0;
+}
+
+.toggle .burger-line-3 {
+  transform: rotate(45deg) translate(-5px, -6px);
 }
 
 /*# sourceMappingURL=styles.css.map */
