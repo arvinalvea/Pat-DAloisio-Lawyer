@@ -4,9 +4,11 @@ const navSlide = () => {
     const burger = document.querySelector(".burger");
     const nav = document.querySelector(".nav-links");
     const navLinks = document.querySelectorAll(".nav-links li");
+    // Look for .hamburger
+    const hamburger = document.querySelector(".hamburger");
 
     //Toggle Nav
-    burger.addEventListener("click", () => {
+    hamburger.addEventListener("click", () => {
         nav.classList.toggle("nav-active");
 
         //Animate Links
@@ -21,7 +23,10 @@ const navSlide = () => {
         });
 
         //Burger Animation
-        burger.classList.toggle("toggle");
+        //burger.classList.toggle("toggle");
+
+        // Toggle class "is-active"
+        hamburger.classList.toggle("is-active");
     });
 };
 
