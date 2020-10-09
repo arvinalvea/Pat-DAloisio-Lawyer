@@ -13,6 +13,11 @@ html {
   font-family: "M PLUS 1p", sans-serif;
 }
 
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* NAV ------------------------------------------------- */
 nav {
   display: flex;
@@ -20,6 +25,7 @@ nav {
   align-items: center;
   position: fixed;
   width: 100%;
+  z-index: 10000;
   min-height: 8vh;
   background-color: #fff;
   box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
@@ -69,22 +75,30 @@ nav h1 {
   box-shadow: 0 3px 20px rgba(0, 0, 0, 0.2);
 }
 
-.burger {
-  display: block;
-  cursor: pointer;
-  margin-left: auto;
-  margin-right: 1em;
-}
-.burger div {
-  width: 25px;
-  height: 2px;
-  background-color: grey;
-  margin: 5px;
-  transition: all 0.3s ease;
-}
-
 .nav-active {
   transform: translateX(0);
+}
+
+.hero {
+  background-image: linear-gradient(rgba(39, 73, 108, 0.5), #27496c), url("../img/lady-justice-2388500.jpg");
+  height: 55%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5em;
+}
+
+.hero-title {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  text-align: center;
+  font-size: 1.2rem;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
@@ -98,16 +112,37 @@ nav h1 {
     transform: translateX(0px);
   }
 }
-.toggle .burger-line-1 {
-  transform: rotate(-45deg) translate(-4px, 6px);
-}
+/* MEDIA QUERIES ------------------------------------------------- */
+@media (min-width: 768px) {
+  nav {
+    background-color: transparent;
+    height: 12vh;
+  }
 
-.toggle .burger-line-2 {
-  opacity: 0;
-}
+  .nav-links {
+    position: static;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 75%;
+    height: initial;
+    transform: translateX(0%);
+  }
+  .nav-links li {
+    opacity: 1;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .nav-links a {
+    font-size: 1em;
+    position: absolute;
+  }
 
-.toggle .burger-line-3 {
-  transform: rotate(45deg) translate(-4px, -6px);
+  .hamburger {
+    display: none;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */
