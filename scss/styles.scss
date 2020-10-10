@@ -17,6 +17,14 @@ html {
     font-family: "M PLUS 1p", sans-serif;
 }
 
+h1 {
+    font-size: 3.3rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
 .container {
     width: 90%;
     margin: 0 auto;
@@ -36,9 +44,10 @@ nav {
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     height: 10vh;
     transition: background-color 250ms ease-in;
-    h1 {
+    p {
         margin-left: 0.5em;
         text-transform: uppercase;
+        font-weight: 700;
         font-size: 1.3rem;
     }
 }
@@ -113,7 +122,7 @@ nav {
             rgba(39, 73, 108, 1)
         ),
         url("../img/lady-justice-2388500.jpg");
-    height: 55%;
+    height: 65%;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -121,7 +130,7 @@ nav {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .hero-title {
@@ -130,7 +139,7 @@ nav {
     justify-content: center;
     align-content: center;
     text-align: center;
-    font-size: 1.2rem;
+    // font-size: 1.2rem;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
