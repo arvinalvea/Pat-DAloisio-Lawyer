@@ -115,7 +115,6 @@ nav {
 }
 
 .nav-text-desktop {
-    visibility: hidden;
     margin-left: auto;
     display: flex;
     color: $color-primary;
@@ -169,6 +168,12 @@ nav {
 }
 
 /* MEDIA QUERIES ------------------------------------------------- */
+
+@media screen and (max-width: 992px) {
+    .nav-text-desktop {
+        display: none !important;
+    }
+}
 
 @media (min-width: 768px) {
     nav {

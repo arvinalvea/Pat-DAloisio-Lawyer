@@ -1,4 +1,5 @@
 const nav = document.querySelector("nav");
+const navTextDesktop = document.querySelector(".nav-text-desktop");
 
 const navSlide = () => {
     //const burger = document.querySelector(".burger");

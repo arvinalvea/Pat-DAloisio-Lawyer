@@ -89,7 +89,6 @@ nav h2 {
 }
 
 .nav-text-desktop {
-  visibility: hidden;
   margin-left: auto;
   display: flex;
   color: #27496c;
@@ -134,6 +133,11 @@ nav h2 {
   }
 }
 /* MEDIA QUERIES ------------------------------------------------- */
+@media screen and (max-width: 992px) {
+  .nav-text-desktop {
+    display: none !important;
+  }
+}
 @media (min-width: 768px) {
   nav {
     background-color: white;
