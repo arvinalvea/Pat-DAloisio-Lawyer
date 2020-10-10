@@ -90,7 +90,7 @@ nav p {
 
 .hero {
   background-image: linear-gradient(rgba(39, 73, 108, 0.5), #27496c), url("../img/lady-justice-2388500.jpg");
-  height: 65%;
+  height: 75%;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -122,11 +122,6 @@ nav p {
 }
 /* MEDIA QUERIES ------------------------------------------------- */
 @media (min-width: 768px) {
-  nav {
-    background-color: transparent;
-    height: 12vh;
-  }
-
   .nav-links {
     position: static;
     background-color: transparent;
