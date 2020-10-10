@@ -44,7 +44,7 @@ nav {
     box-shadow: 0 3px 5px rgba(57, 63, 72, 0.3);
     height: 10vh;
     transition: background-color 250ms ease-in;
-    p {
+    h2 {
         margin-left: 0.5em;
         text-transform: uppercase;
         font-weight: 700;
@@ -112,6 +112,19 @@ nav {
 
 .nav-active {
     transform: translateX(0);
+}
+
+.nav-text-desktop {
+    visibility: hidden;
+    margin-left: auto;
+    display: flex;
+    color: $color-primary;
+    font-size: 0.6rem;
+    margin-right: 4em;
+    svg,
+    p {
+        margin-right: 1em;
+    }
 }
 
 // HERO SECTION

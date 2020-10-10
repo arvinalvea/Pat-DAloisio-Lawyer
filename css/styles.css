@@ -40,7 +40,7 @@ nav {
   height: 10vh;
   transition: background-color 250ms ease-in;
 }
-nav p {
+nav h2 {
   margin-left: 0.5em;
   text-transform: uppercase;
   font-weight: 700;
@@ -86,6 +86,19 @@ nav p {
 
 .nav-active {
   transform: translateX(0);
+}
+
+.nav-text-desktop {
+  visibility: hidden;
+  margin-left: auto;
+  display: flex;
+  color: #27496c;
+  font-size: 0.6rem;
+  margin-right: 4em;
+}
+.nav-text-desktop svg,
+.nav-text-desktop p {
+  margin-right: 1em;
 }
 
 .hero {
