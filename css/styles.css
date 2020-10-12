@@ -225,6 +225,7 @@ nav h2 {
   justify-content: center;
   align-items: center;
   color: #27496c;
+  text-align: center;
 }
 .mission-info-text h3 {
   font-size: 1.3rem;
