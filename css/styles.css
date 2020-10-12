@@ -201,6 +201,11 @@ nav h2 {
   .hamburger {
     display: none;
   }
+
+  .hero {
+    height: 100%;
+    background-position: top;
+  }
 }
 @media (min-width: 992px) {
   .nav-links a {
