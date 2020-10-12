@@ -249,6 +249,13 @@ nav h2 {
   .featureInfo {
     grid-template-columns: repeat(3, 1fr);
   }
+
+  .featureInfo-card {
+    padding: 1em;
+  }
+  .featureInfo-card svg {
+    margin: auto;
+  }
 }
 @media (min-width: 992px) {
   nav h2 {

@@ -282,8 +282,15 @@ nav {
         height: 100%;
         background-position: top;
     }
+
     .featureInfo {
         grid-template-columns: repeat(3, 1fr);
+    }
+    .featureInfo-card {
+        padding: 1em;
+        svg {
+            margin: auto;
+        }
     }
 }
 
