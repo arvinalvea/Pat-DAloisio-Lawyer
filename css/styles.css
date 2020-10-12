@@ -217,6 +217,7 @@ nav h2 {
 
 .mission-info {
   border: 5px solid steelblue;
+  margin-bottom: 4em;
 }
 
 .mission-info-text {
@@ -234,7 +235,7 @@ nav h2 {
   text-decoration: none;
   color: #27496c;
   margin-bottom: 1.5em;
-  margin-top: 0.5em;
+  margin-top: 1em;
 }
 .mission-info-text p {
   margin-bottom: 1em;
