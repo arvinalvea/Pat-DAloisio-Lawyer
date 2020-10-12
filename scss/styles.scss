@@ -207,6 +207,30 @@ nav {
     grid-column: 3/16;
 }
 
+/* practiceArea Section ------------------------------------------------- */
+
+.practiceAreas {
+    background-color: #f3f3f3;
+    overflow: hidden;
+}
+
+.container-practiceAreas {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin-top: 26em;
+}
+
+.practiceAreas-card {
+    margin: 1em;
+    width: 80%;
+    height: 300px;
+    background-color: $color-primary;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+
 /* KEYFRAMES ------------------------------------------------- */
 
 @keyframes navLinkFade {
