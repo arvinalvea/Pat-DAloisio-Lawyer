@@ -17,6 +17,10 @@ h1 {
   font-size: 3.3rem;
 }
 
+h2 {
+  font-size: 2rem;
+}
+
 p {
   font-size: 1rem;
 }
@@ -196,6 +200,47 @@ nav h2 {
   align-items: center;
   color: white;
   text-align: center;
+}
+
+/* mission Section ------------------------------------------------- */
+.mission {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.mission h2 {
+  color: #27496c;
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+}
+
+.mission-info {
+  border: 5px solid steelblue;
+}
+
+.mission-info-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #27496c;
+}
+.mission-info-text h3 {
+  font-size: 1.3rem;
+}
+.mission-info-text a {
+  text-decoration: none;
+  color: #27496c;
+  margin-bottom: 1.5em;
+}
+.mission-info-text p {
+  margin-bottom: 1em;
+}
+
+.mission-info-logo img {
+  width: 250px;
+  margin: 1em auto;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
