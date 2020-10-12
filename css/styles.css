@@ -147,12 +147,14 @@ nav h2 {
   position: absolute;
   top: 90%;
   box-shadow: 0 8px 6px -6px black;
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
 }
 
 .featureInfo-card {
   display: grid;
   width: 90%;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(15, 1fr);
   margin: 1em;
   color: #27496c;
 }
@@ -169,6 +171,7 @@ nav h2 {
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
+  grid-column: 3/16;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
@@ -183,7 +186,7 @@ nav h2 {
   }
 }
 /* MEDIA QUERIES ------------------------------------------------- */
-@media screen and (max-width: 992px) {
+@media screen and (max-width: 768px) {
   .nav-text-desktop {
     display: none !important;
   }
@@ -222,7 +225,7 @@ nav h2 {
     background-color: steelblue !important;
   }
   .nav-links a {
-    font-size: 0.5rem;
+    font-size: 0.7rem;
     position: absolute;
     color: white;
   }
@@ -241,6 +244,10 @@ nav h2 {
   .hero {
     height: 100%;
     background-position: top;
+  }
+
+  .featureInfo {
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 @media (min-width: 992px) {
