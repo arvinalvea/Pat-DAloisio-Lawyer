@@ -234,6 +234,7 @@ nav h2 {
   text-decoration: none;
   color: #27496c;
   margin-bottom: 1.5em;
+  margin-top: 0.5em;
 }
 .mission-info-text p {
   margin-bottom: 1em;
@@ -356,6 +357,15 @@ nav h2 {
   }
   .featureInfo-card svg {
     margin: auto;
+  }
+
+  .mission-info-text {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .mission-info-p {
+    padding: 2em;
   }
 }
 @media (min-width: 992px) {

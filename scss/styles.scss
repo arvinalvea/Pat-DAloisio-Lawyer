@@ -268,7 +268,9 @@ nav {
         text-decoration: none;
         color: $color-primary;
         margin-bottom: 1.5em;
+        margin-top: 0.5em;
     }
+
     p {
         margin-bottom: 1em;
     }
@@ -390,6 +392,15 @@ nav {
         svg {
             margin: auto;
         }
+    }
+
+    .mission-info-text {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .mission-info-p {
+        padding: 2em;
     }
 }
 
