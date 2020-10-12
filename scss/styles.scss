@@ -171,6 +171,36 @@ nav {
     // font-size: 1.2rem;
 }
 
+/* featureInfo Section ------------------------------------------------- */
+
+.featureInfo {
+    width: 90%;
+    border: 1px solid green;
+    background-color: white;
+}
+
+.featureInfo-card {
+    display: grid;
+    width: 90%;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 1em;
+    color: $color-primary;
+    svg {
+        border: 3px solid #d1d1d1;
+        padding: 41px 0px;
+        height: 120px;
+        width: 80px;
+        margin-left: 2em;
+    }
+}
+
+.featureInfo-card-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
 /* KEYFRAMES ------------------------------------------------- */
 
 @keyframes navLinkFade {
