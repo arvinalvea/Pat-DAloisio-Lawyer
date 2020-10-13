@@ -357,7 +357,7 @@ footer {
   text-transform: uppercase;
   color: lightblue;
   font-weight: 500;
-  font-size: 1.2rem;
+  font-size: 1rem;
 }
 
 .footer-tel a,
@@ -368,9 +368,15 @@ footer {
 
 .footer-tel,
 .footer-email {
-  margin-left: 1em;
+  margin-left: 2em;
   line-height: 1.5;
   margin-bottom: 1em;
+  display: flex;
+  align-items: center;
+}
+.footer-tel svg,
+.footer-email svg {
+  margin-right: 2em;
 }
 
 .footer-tel {
@@ -382,11 +388,13 @@ footer {
   line-height: 2;
   text-align: center;
   margin-bottom: 2em;
+  margin-top: 2em;
 }
 
 .footer-copyright hr {
   width: 90%;
   color: slategray;
+  margin: 0 auto;
 }
 .footer-copyright p {
   margin: 1em auto;
