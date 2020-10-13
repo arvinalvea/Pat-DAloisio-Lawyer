@@ -319,7 +319,6 @@ button {
   text-align: center;
   font-style: normal;
   border-radius: 5px;
-  width: 50%;
   border: 1px solid #f3f3f3;
   border-width: 1px 1px 3px;
   box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
@@ -465,6 +464,28 @@ label {
 
   .mission-info-p {
     padding: 2em;
+  }
+
+  .contact {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .contact-text {
+    grid-column: 1;
+    grid-row: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .contact-text h2 {
+    margin-top: 0;
+  }
+
+  .contact-form {
+    grid-column: 2;
+    grid-row: 1;
   }
 }
 @media (min-width: 992px) {
