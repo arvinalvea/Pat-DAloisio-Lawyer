@@ -390,6 +390,59 @@ label {
     text-align: start;
 }
 
+/* footer Section ------------------------------------------------- */
+
+footer {
+    background-color: $color-primary;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-tel h3,
+.footer-email h3 {
+    text-transform: uppercase;
+    color: lightblue;
+    font-weight: 500;
+    font-size: 1.2rem;
+}
+
+.footer-tel a,
+.footer-email a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-tel,
+.footer-email {
+    margin-left: 1em;
+    line-height: 1.5;
+    margin-bottom: 1em;
+}
+
+.footer-tel {
+    margin-top: 3em;
+}
+
+.footer-notes p {
+    font-size: 0.7rem;
+    line-height: 2;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+.footer-copyright {
+    hr {
+        width: 90%;
+        color: slategray;
+    }
+    p {
+        margin: 1em auto;
+        font-size: 0.7rem;
+        text-align: center;
+    }
+}
+
 /* KEYFRAMES ------------------------------------------------- */
 
 @keyframes navLinkFade {
