@@ -23,6 +23,7 @@ h2 {
 
 p {
   font-size: 1rem;
+  line-height: 1.5;
 }
 
 .container {
@@ -244,6 +245,36 @@ nav h2 {
 .mission-info-logo img {
   width: 250px;
   margin: 1em auto;
+}
+
+/* contact Section ------------------------------------------------- */
+.contact {
+  background-color: #f3f3f3;
+  display: flex;
+  flex-direction: column;
+  color: #27496c;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.contact h2 {
+  font-weight: 400;
+  margin: 1.5em auto;
+}
+
+.contact-tel {
+  background-color: #27496c;
+  color: white;
+  width: 70%;
+  margin: 0 auto;
+}
+.contact-tel h2 {
+  padding: 1em;
+  font-size: 1.5rem;
+}
+.contact-tel a {
+  color: white;
+  text-decoration: none;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
