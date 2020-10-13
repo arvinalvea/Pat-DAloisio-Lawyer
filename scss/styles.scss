@@ -592,6 +592,37 @@ footer {
         grid-column: 2;
         grid-row: 1;
     }
+
+    footer {
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+    }
+
+    .footer-tel {
+        grid-column: 2/3;
+        grid-row: 1;
+    }
+
+    .footer-email {
+        grid-column: 4/5;
+        grid-row: 1;
+        margin-top: 3em;
+    }
+
+    .footer-tel h3,
+    .footer-email h3 {
+        font-size: 1.5rem;
+    }
+
+    .footer-notes {
+        grid-column: 1/6;
+        grid-row: 2;
+    }
+
+    .footer-copyright {
+        grid-column: 1/6;
+        grid-row: 3;
+    }
 }
 
 @media (min-width: 992px) {
