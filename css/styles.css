@@ -249,17 +249,25 @@ nav h2 {
 
 /* contact Section ------------------------------------------------- */
 .contact {
-  background-color: #f3f3f3;
+  background-image: linear-gradient(rgba(39, 73, 108, 0.5), rgba(39, 73, 108, 0.8)), url("../img/contact-web.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
   display: flex;
   flex-direction: column;
-  color: #27496c;
+  color: white;
   justify-content: center;
   align-items: center;
   text-align: center;
 }
 .contact h2 {
-  font-weight: 400;
-  margin: 1.5em auto;
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 2em auto 0.5em auto;
+  text-transform: uppercase;
+}
+.contact p {
+  margin-bottom: 1em;
 }
 
 .contact-tel {
@@ -275,6 +283,65 @@ nav h2 {
 .contact-tel a {
   color: white;
   text-decoration: none;
+}
+
+form {
+  margin: 2em auto;
+  padding: 10px 20px;
+  background: transparent;
+  grid-row: 5;
+  grid-column: 1/6;
+}
+
+input[type=text],
+input[type=email],
+textarea {
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  font-size: 1rem;
+  font-weight: 300;
+  height: auto;
+  margin: 0;
+  outline: 0;
+  padding: 15px;
+  width: 100%;
+  background-color: #e8eeef;
+  color: #8a97a0;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.03) inset;
+  margin-bottom: 30px;
+}
+
+button {
+  padding: 19px 39px 18px 39px;
+  color: #27496c;
+  background-color: #f3f3f3;
+  font-size: 1rem;
+  text-align: center;
+  font-style: normal;
+  border-radius: 5px;
+  width: 50%;
+  border: 1px solid #f3f3f3;
+  border-width: 1px 1px 3px;
+  box-shadow: 0 -1px 0 rgba(255, 255, 255, 0.1) inset;
+  margin-bottom: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  transition: all 0.4s ease;
+}
+button:hover {
+  background-color: lightgray;
+  border: 1px solid lightgray;
+}
+
+fieldset {
+  margin-bottom: 30px;
+  border: none;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: 200;
 }
 
 /* KEYFRAMES ------------------------------------------------- */
