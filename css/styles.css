@@ -554,6 +554,7 @@ footer {
   .contact {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    height: 110vh;
   }
 
   .contact-text {
