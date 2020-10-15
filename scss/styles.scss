@@ -277,9 +277,12 @@ nav {
     }
 }
 
-.mission-info-logo img {
-    width: 250px;
+.mission-info-logo {
+    width: 90%;
     margin: 1em auto;
+    img {
+        width: 100%;
+    }
 }
 
 /* contact Section ------------------------------------------------- */
