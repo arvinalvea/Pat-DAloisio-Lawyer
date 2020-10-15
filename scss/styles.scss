@@ -227,13 +227,19 @@ nav {
 .practiceAreas-card {
     margin: 1em auto;
     width: 80%;
-    height: 200px;
+    height: 150px;
     background-color: $color-primary;
     display: flex;
     justify-content: center;
     align-items: center;
     color: white;
     text-align: center;
+    &:first-child {
+        margin-top: 3em;
+    }
+    &:last-child {
+        margin-bottom: 3em;
+    }
 }
 
 /* mission Section ------------------------------------------------- */
@@ -531,7 +537,21 @@ footer {
     .container-practiceAreas {
         display: grid;
         grid-template-columns: repeat(6, 1fr);
-        margin-top: 10em;
+        margin-top: 17em;
+        padding-bottom: 2em;
+    }
+
+    .practiceAreas-card {
+        height: 100px;
+        h2 {
+            font-size: 1rem;
+        }
+        &:first-child {
+            margin-top: 1em;
+        }
+        &:last-child {
+            margin-bottom: 0;
+        }
     }
 
     #practiceAreas-card-1 {
@@ -601,12 +621,12 @@ footer {
     }
 
     .footer-tel {
-        grid-column: 2/3;
+        grid-column: 2/4;
         grid-row: 1;
     }
 
     .footer-email {
-        grid-column: 4/5;
+        grid-column: 4;
         grid-row: 1;
         margin-top: 3em;
     }
@@ -624,6 +644,18 @@ footer {
     .footer-copyright {
         grid-column: 1/6;
         grid-row: 3;
+    }
+}
+
+@media (min-width: 880px) {
+    .container-practiceAreas {
+        margin-top: 12em;
+    }
+    .practiceAreas-card {
+        height: 200px;
+        h2 {
+            font-size: 1.5rem;
+        }
     }
 }
 
