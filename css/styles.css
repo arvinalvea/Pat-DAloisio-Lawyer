@@ -21,6 +21,10 @@ h2 {
   font-size: 2rem;
 }
 
+h3 {
+  font-size: 1.3rem;
+}
+
 p {
   font-size: 1rem;
   line-height: 1.5;
@@ -492,7 +496,7 @@ footer {
   .practiceAreas-card {
     height: 100px;
   }
-  .practiceAreas-card h2 {
+  .practiceAreas-card h3 {
     font-size: 1rem;
   }
   .practiceAreas-card:first-child {
@@ -608,7 +612,7 @@ footer {
   .practiceAreas-card {
     height: 200px;
   }
-  .practiceAreas-card h2 {
+  .practiceAreas-card h3 {
     font-size: 1.5rem;
   }
 }
