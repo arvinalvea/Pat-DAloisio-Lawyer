@@ -233,6 +233,7 @@ nav {
     width: 80%;
     height: 150px;
     background-color: $color-primary;
+    // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -292,6 +293,9 @@ nav {
     margin: 1em auto;
     img {
         width: 100%;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2),
+            0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 10px;
     }
 }
 
