@@ -326,7 +326,7 @@ textarea {
   margin-bottom: 30px;
 }
 
-button {
+.button {
   padding: 19px 39px 18px 39px;
   color: #27496c;
   background-color: #f3f3f3;
@@ -342,7 +342,7 @@ button {
   text-transform: uppercase;
   transition: all 0.4s ease;
 }
-button:hover {
+.button:hover {
   background-color: lightgray;
   border: 1px solid lightgray;
 }
@@ -360,11 +360,6 @@ label {
 }
 
 /* contact Section ------------------------------------------------- */
-.btn {
-  padding: 1em;
-  margin-bottom: 1em;
-}
-
 /* footer Section ------------------------------------------------- */
 footer {
   background-color: #27496c;
