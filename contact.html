@@ -78,7 +78,13 @@
             </div>
 
             <div class="contact-form">
-                <form action="contact.html" method="POST">
+                <form
+                    id="contact-form"
+                    method="post"
+                    action="contact.php"
+                    role="form"
+                    novalidate="true"
+                >
                     <fieldset>
                         <label for="name">Name</label>
                         <input type="text" id="name" name="user_name" />
