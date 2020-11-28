@@ -617,7 +617,7 @@ footer {
     .contact {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
-        height: 110vh;
+        // height: 110vh;
     }
     .contact-text {
         grid-column: 1;
@@ -634,6 +634,10 @@ footer {
     .contact-form {
         grid-column: 2;
         grid-row: 1;
+    }
+
+    form {
+        margin-top: 10em;
     }
 
     footer {
