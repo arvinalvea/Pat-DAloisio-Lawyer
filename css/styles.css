@@ -360,6 +360,11 @@ label {
 }
 
 /* contact Section ------------------------------------------------- */
+#main-logo {
+  text-decoration: none;
+  color: black;
+}
+
 /* footer Section ------------------------------------------------- */
 footer {
   background-color: #27496c;
