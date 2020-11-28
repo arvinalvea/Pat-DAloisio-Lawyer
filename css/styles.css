@@ -359,6 +359,12 @@ label {
   text-align: start;
 }
 
+/* contact Section ------------------------------------------------- */
+.btn {
+  padding: 1em;
+  margin-bottom: 0.5em;
+}
+
 /* footer Section ------------------------------------------------- */
 footer {
   background-color: #27496c;
