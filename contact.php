@@ -4,7 +4,7 @@
  */
 
 // an email address that will be in the From field of the email.
-$from = 'info@acmconstructiongroup.ca';
+$from = 'info@closeyourmove.ca';
 
 // an email address that will receive the email with the output of the form
 $sendTo = 'arvinalvea@gmail.com';
