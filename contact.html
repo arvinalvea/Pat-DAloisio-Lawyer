@@ -3,6 +3,13 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+        <link
+            rel="stylesheet"
+            href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+            integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+            crossorigin="anonymous"
+        />
         <title>Patrick D'Aloisio</title>
         <!-- Fonts CSS -->
         <link
@@ -69,33 +76,9 @@
                     Please contact our team for fee quote or to speak to our
                     team. Purchase? Sale? Refinance? We can help.
                 </p>
-                <!-- <p>
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut
-                    mattis condimentum tellus. In in tristique urna, et feugiat
-                    quam. Integer eget quam ipsum. Donec egestas magna eu eros
-                    laoreet rutrum.
-                </p> -->
             </div>
 
             <div class="contact-form">
-                <!-- <form
-                    id="contact-form"
-                    method="post"
-                    action="contact.php"
-                    role="form"
-                    novalidate="true"
-                >
-                    <fieldset>
-                        <label for="name">Name</label>
-                        <input type="text" id="name" name="user_name" />
-                        <label for="email">Email</label>
-                        <input type="email" id="email" name="user_email" />
-                        <label for="message">Message</label>
-                        <textarea id="message" name="user_message"></textarea>
-                    </fieldset>
-                    <button type="submit">Submit</button>
-                </form> -->
-
                 <form
                     id="contact-form"
                     method="post"
@@ -127,7 +110,9 @@
                             </div>
                             <div class="col-md-6">
                                 <div class="form-group">
-                                    <label for="form_lastname">Last Name</label>
+                                    <label for="form_lastname"
+                                        >Last Name *</label
+                                    >
                                     <input
                                         id="form_lastname"
                                         type="text"
@@ -146,7 +131,7 @@
                         </div>
 
                         <div class="row">
-                            <div class="col-md-6">
+                            <div class="col-md-12">
                                 <div class="form-group">
                                     <label for="form_email">E-mail *</label>
                                     <input
@@ -196,10 +181,7 @@
                         </div>
                         <div class="row">
                             <div class="col-md-12">
-                                <p
-                                    class="text-muted"
-                                    style="font-family: 'M PLUS 1p', sans-serif"
-                                >
+                                <p style="font-family: 'M PLUS 1p', sans-serif">
                                     <strong>*</strong> These fields are
                                     required.
                                 </p>
@@ -268,7 +250,7 @@
                 </p>
             </div>
         </footer>
-
+        <script src="js/contact.js"></script>
         <script src="js/app.js"></script>
     </body>
 </html>
